@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class ContactsPage extends BasePage {
+public class  ContactsPage extends BasePage {
 
     @FindBy(css=".input-widget")
     public WebElement pageNumber;
